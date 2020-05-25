@@ -25,3 +25,5 @@ Route::post('/testDecrypt','DianMengController@testDecrypt');
 Route::get('/testf','TestController@testf');
 Route::get('/testc','TestController@testc');
 Route::get('/testfib','TestController@testfib');
+
+Route::get('/minzhan','DataStructureController@testMinimumZhan');
